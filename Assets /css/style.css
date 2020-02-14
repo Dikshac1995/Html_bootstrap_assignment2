@@ -1,0 +1,154 @@
+.cointainer{
+  width:100%;
+  margin: 0%;
+}
+.hero_slider{
+  background-image: url("");
+  background-size:cover;
+  color:white;
+  height:500px;
+  
+}
+.nav{
+  background-color:#445a6fb0;
+  color : white;
+  display:flex;
+}
+.hero_logo{
+  flex: 50%;
+  text-align: center;
+  padding-top: 40px;
+
+}
+.lettercolor{
+  color:blue;
+}
+.nav_bar{
+  flex:50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color :white;
+  padding : 10px 16px;
+  display :flex;
+  
+   }
+   li{
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    
+  }
+  li a {
+    display: block;
+    color:white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    border: 1px solid blue;
+    color : blue;
+  }
+  .hero-text{
+    position: relative;
+  }
+  .hero_text_content{
+    top: 150px;
+    left: 390px;
+    position: absolute;
+  }
+  .hero_text_content p {
+    background-color: grey;
+  }
+
+
+    .services{
+    background-color: turquoise;
+    color:white;
+    width: 100%;;
+  }
+  .services_wrapper{
+    padding:30px;
+  }
+  .services_wrapper_artical{
+    display:flex;
+   
+  }
+  .artical{
+  flex:1;
+  justify-content: space-around;
+  }
+  .portfollio_wrapper_up{
+    display:flex;
+  }
+  .portfollio_wrapper_title{
+    flex:50%;
+    width:50%;
+
+  }
+  .portfollio_wrapper_nav li a{
+    color:black;
+  }
+  .portfollio_wrapper_blog{
+    padding-left: 40px;
+  }
+  .Default_section{
+    background-color: grey;
+    width:100%;
+    color:white;
+  }
+  .default_section_wrapper{
+    display:flex;
+  
+  }
+  .default_section_bolg{
+    flex:50%;
+    padding: 95px;
+  }
+  .Default_section_media{
+    padding-top: 19px;
+    /* padding: 63px; */
+    padding-right: 80px;
+  }
+  .twitter_page{
+    background-color: aqua;
+    color:white;
+  }
+  .twitter_page_wrapper{
+    padding:10px;
+  }
+  .who_about{
+    background-image: url("images/holder.png");
+    background-size: cover;
+    height: 100%; 
+    background-position: center;
+   background-repeat: no-repeat;
+  /* background-size: cover; */
+
+  }
+  .who_blog{
+    display:flex;
+  }
+  .who_wrapper{
+    padding:10px;
+  }
+  button{
+    background-color:gray;
+    color: black;
+    border: 2px solid #555555;
+    padding : 10px;
+  }
+  
+  button:hover {
+    background-color: #555555;
+    color: white;
+  }
+  .contact{
+    background-image: url("images/bg-holder.png");
+    width:100%;
+
+  }
